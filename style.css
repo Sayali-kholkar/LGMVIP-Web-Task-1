@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 222, 222);
+}
+h1{
+    font-family:'Poppins',sans-serif ;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.container{
+    height: 550px;
+    width: 400px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(222, 171, 180);
+    overflow-y: auto;
+    margin: 0 1.7rem;
+    background-color: white;
+}
+.top{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(199, 25, 211, 0.884);
+    padding: 2rem;
+}
+#input{
+    height: 50px;
+    width: 80%;
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 0 10px;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+.inp{
+    display: flex;
+}
+button{
+    width: 5rem;
+    height: 3.1rem;
+    border: none;
+    padding: .9rem 1rem;
+    background-color: rgb(80, 80, 244);
+    position: relative;
+    font-size: 1.2rem;
+    top:.96rem;
+}
+button:hover{
+    background-color: rgb(79, 139, 192);
+}
+ul li{
+    background: rgb(220,237,241);
+    color: #333;
+    height: 40px;
+    margin: .2rem 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: .6rem 2rem;
+}
+ul li:nth-child(even){
+    color: black;
+    background-color: rgb(202, 235, 246);
+}
+ul .fa-check, .fa-times{
+    position: absolute;
+    cursor: pointer;
+}
+ul .fa-check{
+    left: .7rem;
+}
+ul .fa-times{
+    right: .7rem;
+}
+ul .checked{
+        background: rgb(64,108,231);
+        color: white;
+        text-decoration: line-through;
+        transition: .2s;
+}
+
